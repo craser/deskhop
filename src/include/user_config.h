@@ -174,7 +174,43 @@
  * */
 
 #define OUTPUT_A_OS MACOS
-#define OUTPUT_B_OS LINUX
+#define OUTPUT_B_OS MACOS
+
+
+/**================================================== *
+ * ==============  Output Position Config =========== *
+ * ================================================== *
+ *
+ * Defines OS an output connects to. You will need to worry about this only if you have
+ * multiple desktops and one of your outputs is MacOS or Windows.
+ *
+ * Available options: LEFT, RIGHT
+ *
+ * OUTPUT_A_POS: Position for output A
+ * OUTPUT_B_POS: Position for output B
+ *
+ * */
+
+#define OUTPUT_A_POS LEFT
+#define OUTPUT_B_POS RIGHT
+
+
+/**================================================== *
+ * ===========  Output Screen Counts Config ========= *
+ * ================================================== *
+ *
+ * Defines OS an output connects to. You will need to worry about this only if you have
+ * multiple desktops and one of your outputs is MacOS or Windows.
+ *
+ * Available options: LEFT, RIGHT
+ *
+ * OUTPUT_A_POS: Position for output A
+ * OUTPUT_B_POS: Position for output B
+ *
+ * */
+
+#define OUTPUT_A_SCREEN_COUNT 2
+#define OUTPUT_B_SCREEN_COUNT 1
 
 
 /**================================================== *
@@ -189,7 +225,7 @@
  *
  * */
 
-#define ENFORCE_PORTS 0
+#define ENFORCE_PORTS 1
 
 
 /**================================================== *
