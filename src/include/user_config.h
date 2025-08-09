@@ -80,7 +80,7 @@
 #define JUMP_THRESHOLD 0
 
 /* Mouse acceleration */
-#define ENABLE_ACCELERATION 1
+#define ENABLE_ACCELERATION 0
 
 /**================================================== *
  * ==============  Screensaver Config  ============== *
