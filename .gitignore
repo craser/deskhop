@@ -1,3 +1,6 @@
 build
 
 .idea/
+logs
+build_debug
+.claude
