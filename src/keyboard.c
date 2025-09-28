@@ -40,7 +40,7 @@ hotkey_combo_t hotkeys[] = {
 
     /* Screen lock */
     {.modifier       = KEYBOARD_MODIFIER_RIGHTCTRL,
-     .keys           = {HID_KEY_L},
+     .keys           = {HID_KEY_END},
      .key_count      = 1,
      .acknowledge    = true,
      .action_handler = &screenlock_hotkey_handler},

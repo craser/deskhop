@@ -47,8 +47,8 @@
  *
  * */
 
-#define HOTKEY_MODIFIER  KEYBOARD_MODIFIER_LEFTCTRL
-#define HOTKEY_TOGGLE    HID_KEY_CAPS_LOCK
+#define HOTKEY_MODIFIER  KEYBOARD_MODIFIER_RIGHTCTRL
+#define HOTKEY_TOGGLE    HID_KEY_L
 
 /**================================================== *
  * ==============  Mouse Speed Factor  ============== *
@@ -225,7 +225,7 @@
  *
  * */
 
-#define ENFORCE_PORTS 1
+#define ENFORCE_PORTS 0
 
 
 /**================================================== *
